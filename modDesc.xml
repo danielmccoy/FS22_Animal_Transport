@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="67">
+    <author>DJM</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Animal Transport</en>
+    </title>
+    <description>
+        <en><![CDATA[Require animals to be transported to and from the dealer.]]></en>
+    </description>
+    <iconFilename>icon.dds</iconFilename>
+    <multiplayer supported="true"/>
+
+    <extraSourceFiles>
+        <sourceFile filename="scripts/main.lua"/>
+    </extraSourceFiles>
+</modDesc>
