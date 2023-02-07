@@ -12,6 +12,14 @@ function initAnimalNerf()
             superFunc(self)
         end
     )
+
+    AnimalScreenDealerFarm.new = Utils.overwrittenFunction(
+        AnimalScreenDealerFarm.new, 
+        function(self, superFunc)
+            return nil
+        end
+    )
+
 end
 
 initAnimalNerf()
